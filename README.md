@@ -1,4 +1,4 @@
-# These three scripts written for pretreatment of paired-end sequences for metagenomics
+# Scripts for pretreatment of paired-end sequences for metagenomics
 
 QC_PE.py  a script for Quality Control (QC) of Illumina Paired-End (PE) Reads.  
 
