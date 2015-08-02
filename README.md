@@ -50,14 +50,18 @@ a script for De-Replication of Paired-End (PE) Reads <richieju520@gmail.com>
 
 optional arguments:
   -h, --help            show this help message and exit
+  
   -f FORWARD_READS_FP, --forward_reads_fp FORWARD_READS_FP
                         The file path of input forward reads in FASTQ format.
+                        
   -r REVERSE_READS_FP, --reverse_reads_fp REVERSE_READS_FP
                         The file path of input reverse reads in FASTQ format.
+                        
   -n FIRST_N_BASES, --first_N_bases FIRST_N_BASES
                         Remove all but a single representative of clusters of
                         reads whose first [N] base pairs are identical.
                         Default: 50, as recommended by MG-RAST.
+                        
   -o OUTPUT_PREFIX, --output_prefix OUTPUT_PREFIX
                         The prefix of de-replicated fastq files.
 
@@ -70,13 +74,17 @@ a script for Overlapping Paired-End (PE) Reads <richieju520@gmail.com>
 
 optional arguments:
   -h, --help            show this help message and exit
+  
   -f FORWARD_READS_FP, --forward_reads_fp FORWARD_READS_FP
                         The file path of input forward reads in FASTQ format.
+                        
   -r REVERSE_READS_FP, --reverse_reads_fp REVERSE_READS_FP
                         The file path of input reverse reads in FASTQ format.
+                        
   -j MIN_OVERLAP_LEN, --min_overlap_len MIN_OVERLAP_LEN
                         the minimum length (bp) for PE reads overlapping.
                         Default: 10
+                        
   -o OUTPUT_PREFIX, --output_prefix OUTPUT_PREFIX
                         The prefix of overlapped fasta file
 
