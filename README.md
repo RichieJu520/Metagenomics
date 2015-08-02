@@ -18,9 +18,9 @@ a script for Quality Control (QC) of Illumina Paired-End (PE) Reads
 <richieju520@gmail.com>
 
 optional arguments:
-  -h, --help            show this help message and exit
-  -f FORWARD_READS_FP, --forward_reads_fp FORWARD_READS_FP
-                        The file path of input forward reads in FASTQ format.
+  -h, --help            show this help message and exit  
+  -f FORWARD_READS_FP, --forward_reads_fp FORWARD_READS_FP  
+                        The file path of input forward reads in FASTQ format.  
   -r REVERSE_READS_FP, --reverse_reads_fp REVERSE_READS_FP
                         The file path of input reverse reads in FASTQ format.
   -a MAX_AMBIG, --max_ambig MAX_AMBIG
