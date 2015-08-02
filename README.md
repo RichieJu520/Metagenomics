@@ -9,7 +9,7 @@ MG_PE.py  a script for Overlapping/Merging Paired-End (PE) Reads.
 The scripts were written and tested in python 2.7.3 and biopython 1.64
 
 
-QC_PE.py -h
+(1) QC_PE.py -h
 usage: QC_PE.py [-h] -f FORWARD_READS_FP -r REVERSE_READS_FP [-a MAX_AMBIG]
                 [-L MIN_SEQ_LENGTH] [-q AVERAGE_QUALITY] [-F {33,64}] -o
                 OUTPUT_PREFIX
@@ -35,7 +35,7 @@ optional arguments:
                         The prefix of filtered fastq files.
 
 
-DR_PE.py -h
+(2) DR_PE.py -h
 usage: DR_PE.py [-h] -f FORWARD_READS_FP -r REVERSE_READS_FP
                 [-n FIRST_N_BASES] -o OUTPUT_PREFIX
 
@@ -55,7 +55,7 @@ optional arguments:
                         The prefix of de-replicated fastq files.
 
 
-MG_PE.py -h
+(3) MG_PE.py -h
 usage: MG_PE.py [-h] -f FORWARD_READS_FP -r REVERSE_READS_FP
                 [-j MIN_OVERLAP_LEN] -o OUTPUT_PREFIX
 
