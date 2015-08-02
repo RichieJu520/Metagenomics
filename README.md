@@ -21,18 +21,18 @@ optional arguments:
   -h, --help            show this help message and exit  
   -f FORWARD_READS_FP, --forward_reads_fp FORWARD_READS_FP  
                         The file path of input forward reads in FASTQ format.  
-  -r REVERSE_READS_FP, --reverse_reads_fp REVERSE_READS_FP
-                        The file path of input reverse reads in FASTQ format.
-  -a MAX_AMBIG, --max_ambig MAX_AMBIG
-                        maxmium number of ambiguous bases. Default: 3
-  -L MIN_SEQ_LENGTH, --min_seq_length MIN_SEQ_LENGTH
-                        minimum sequence length (bp). Default: 50
-  -q AVERAGE_QUALITY, --average_quality AVERAGE_QUALITY
-                        minimum average quality, Default: 20
-  -F {33,64}, --phred_format {33,64}
-                        format of phred quality score, Default: 33
-  -o OUTPUT_PREFIX, --output_prefix OUTPUT_PREFIX
-                        The prefix of filtered fastq files.
+  -r REVERSE_READS_FP, --reverse_reads_fp REVERSE_READS_FP  
+                        The file path of input reverse reads in FASTQ format.  
+  -a MAX_AMBIG, --max_ambig MAX_AMBIG  
+                        maxmium number of ambiguous bases. Default: 3  
+  -L MIN_SEQ_LENGTH, --min_seq_length MIN_SEQ_LENGTH  
+                        minimum sequence length (bp). Default: 50  
+  -q AVERAGE_QUALITY, --average_quality AVERAGE_QUALITY  
+                        minimum average quality, Default: 20  
+  -F {33,64}, --phred_format {33,64}  
+                        format of phred quality score, Default: 33  
+  -o OUTPUT_PREFIX, --output_prefix OUTPUT_PREFIX  
+                        The prefix of filtered fastq files.  
 
 
 (2) DR_PE.py -h
