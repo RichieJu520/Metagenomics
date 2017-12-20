@@ -1,3 +1,8 @@
+"""
+@author: Feng Ju
+@email: richieju520@gmail.com
+The script was written and tested in python 2.7 and biopython 1.58
+"""
 from Bio import SeqIO
 
 filename1 = "91_otus.fasta"  # 16S rRNA gene database used
