@@ -1,3 +1,9 @@
+"""
+@author: Feng Ju
+@email: richieju520@gmail.com
+The script was written and tested in python 2.7
+"""
+
 import operator
 import sys
 
