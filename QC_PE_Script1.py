@@ -1,5 +1,9 @@
-#!/usr/bin/env python
-#-*- encoding=utf8 -*-
+# -*- coding: utf-8 -*-
+"""
+@author: Feng Ju
+@email: richieju520@gmail.com
+The script was written and tested in python 2.7 and biopython 1.58
+"""
 
 try:  
     from Bio import SeqIO
